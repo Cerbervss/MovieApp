@@ -1,0 +1,133 @@
+.nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b1b;
+}
+
+.tastoHome{
+    border: solid 1px #3d3d3d;
+    margin-left: 20px;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    background: white;
+    transition: 0.2s;
+}
+
+.tastoHome a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tastoHome:hover{
+    background: #3d3d3d;
+    border: solid 1px white;
+    transition: 0.2s;
+}
+
+.tastoHome:hover a{
+    color: white;
+    transition: 0.2s;
+}
+
+.formCerca{
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    background: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.inputCerca{
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 10px;
+    width: 70%;
+}
+
+.inputCerca:focus{
+    outline: none;
+}
+
+.buttonCerca{
+    border:none;
+    border-left: solid 1px;
+    width: fit-content;
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.buttonCerca:hover{
+    border: solid 1px white;
+    color: white;
+    transition: 0.2s;
+    background: #3d3d3d;
+    transition: 0.2s;
+}
+
+.tastoWL{
+    border: solid 1px #3d3d3d;
+    height: 30px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-right: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.tastoWL a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.tastoWL:hover{
+    border: solid 1px white;
+    background: #3d3d3d;
+    transition: 0.2s;
+}
+
+.tastoWL:hover a{
+    color:white;
+    transition: 0.2s;
+}
+
+#opt{
+    height: 30px;
+    width: fit-content;
+    border: none;
+    border-right: solid 1px black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#opt:focus{
+    outline: none;
+}
+
+#datafilm {
+    width: 0%;
+}

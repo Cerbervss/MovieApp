@@ -1,0 +1,30 @@
+.movie-list-item{
+    background-color: #1b1b1b;
+    width: calc(100% - 70px);
+    color: white;
+    margin: 10px;
+    padding: 25px;
+    border: solid 1px white;
+    border-radius: 30px;
+    height: fit-content;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.movie-list-item h1:hover{
+    color: #515151;
+    transition: 0.3s;
+}
+
+.movie-list-item img:hover{
+    width: 130px;
+    height: 180px;
+    transition: 0.3s;
+}
+
+.movie-list-item h1, img{
+    transition: 0.3s;
+}

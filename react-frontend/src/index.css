@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+body{
+    background: #333333;
+}
+
+
+
+.error-page{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-page a{
+    text-decoration: none;
+    color: white;
+}
+
+.error-page a:hover{
+    font-weight: 600;
+}
+
+.error-page p{
+    padding-top: 30px;
+}
+
